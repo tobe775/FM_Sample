@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/fm_one"
+        android:name="com.example.forestlive.fm_sample01_1225.Fragment_One"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        />
+
+    <fragment
+        android:id="@+id/fm_two"
+        android:name="com.example.forestlive.fm_sample01_1225.Fragment_Two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
